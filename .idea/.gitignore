@@ -1,0 +1,68 @@
+# -----------------
+# Thư mục và file hệ thống / môi trường
+# -----------------
+
+# Thư mục của PHP, XAMPP, cache, logs, session
+/vendor/
+/node_modules/
+*.log
+*.cache
+*.tmp
+*.temp
+
+# Thư mục cache của PHP
+/cache/
+/tmp/
+/sessions/
+
+# Thư mục XAMPP và file không cần thiết (nếu có)
+/xampp/
+/htdocs/
+
+# File cấu hình môi trường cá nhân
+.env
+.env.local
+.env.*.local
+
+# Thư mục build, dist (nếu có)
+dist/
+build/
+
+# -----------------
+# IntelliJ / PhpStorm specific
+# -----------------
+
+# Ignore toàn bộ folder .idea/ (IDE config)
+.idea/
+
+# Nhưng giữ lại các file, thư mục bạn muốn giữ
+!.idea/.gitignore
+!.idea/codeStyles/
+!.idea/fileTemplates/
+!.idea/inspectionProfiles/
+!.idea/misc.xml
+!.idea/jsonSchemas.xml
+!.idea/watcherTasks.xml
+
+# -----------------
+# OS generated files
+# -----------------
+
+.DS_Store
+Thumbs.db
+
+# -----------------
+# Các file tạm thời khác
+# -----------------
+
+*.swp
+*.swo
+*~
+
+# -----------------
+# Git
+# -----------------
+
+# Để tránh thêm folder .git trong các submodule
+.git/
+
